@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
         ],
         title: const Text('Menofia Liver Institute'),
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
